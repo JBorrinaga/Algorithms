@@ -26,7 +26,7 @@ void bresenhamLine(int xStart, int xEnd, int yStart, int yEnd) {
 	}
 
 	// Slope is greater than 1
-	else if (yDiff > xDiff) {
+	else {
 		errorParameter = 2 * xDiff - yDiff;
 		for (int x = xStart, y = yStart; y <= yEnd; y++) {
 			cout << '[' << x << ',' << y << ']' << '\n';
