@@ -39,5 +39,4 @@ int main(void) {
 
 	bresenhamLine(xStart, xEnd, yStart, yEnd);
 
-	system("PAUSE");
 }
