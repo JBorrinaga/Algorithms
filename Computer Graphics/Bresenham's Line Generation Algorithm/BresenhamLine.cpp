@@ -12,10 +12,10 @@ void bresenhamLine(int xStart, int xEnd, int yStart, int yEnd) {
 		cout << '[' << x << ',' << y << ']' << '\n';
 
 		errorParameter += yDiff;
-			if ( (errorParameter * 2) >= xDiff) {
-				y++;
-				errorParameter -= xDiff;
-			}
+		if ( (errorParameter * 2) >= xDiff) {
+			y++;
+			errorParameter -= xDiff;
+		}
 	}
 }
 
